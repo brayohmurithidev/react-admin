@@ -3,7 +3,7 @@
   height: calc(100vh - 60px); /* prevents side bar from overflowing topbar */
   background-color: rgb(249, 247, 247);
   position: sticky;
-  top: 50px;
+  top: 60px;
 }
 .sidebarWrapper {
   padding: 20px;

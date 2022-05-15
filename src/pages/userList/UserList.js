@@ -66,11 +66,13 @@ const UserList = () => {
 
   return (
     <div className="userList">
+   
+
       <DataGrid
         rows={data}
         disableSelectionOnClick
         columns={columns}
-        pageSize={10}
+        pageSize={12}
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
